@@ -4,7 +4,7 @@ This guide explains how to build VS Code for Windows targets.
 
 ## Prerequisites
 
-1. **Node.js** (version 22 or higher recommended)
+1. **Node.js** (version 22 or higher recommended, minimum 20.x)
 2. **npm** (comes with Node.js)
 3. **InnoSetup** (for creating Windows installers)
 4. **Python** (for native module compilation)
@@ -16,6 +16,8 @@ This guide explains how to build VS Code for Windows targets.
 ```bash
 npm install
 ```
+
+**Note**: Some dependencies may require specific Node.js versions or native compilation tools. If you encounter missing module errors during build, you may need to install additional dependencies or use Node.js 22+.
 
 ### Build for Windows
 
